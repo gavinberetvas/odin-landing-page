@@ -7,5 +7,10 @@
     --info-header: #1F2937;
     --quote-bg: #E5E7EB;
     --quote-text: #1F2937;
+ }
 
+ * {
+    margin: 0;
+    border: solid 1px; black;
+    background-color: #3882F6;
  }
