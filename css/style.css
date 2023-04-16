@@ -12,5 +12,80 @@
  * {
     margin: 0;
     border: solid 1px; black;
-    background-color: #3882F6;
+    font-family: sans-serif;
  }
+
+ /* header */
+ nav {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 1rem 11rem;
+   background-color: var(--info-header);
+ }
+
+ .logo {
+   color: var(--logo-text);
+   font-weight: bold;
+   font-size: 24px;
+ }
+
+ ul {
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   gap: 15px;
+   text-decoration: none;
+   list-style-type: none;
+   color: var(--secondary-text);
+   font-size: 18px; 
+ }
+
+ a {
+   text-decoration: none !important;
+   color: var(--secondary-text)
+ }
+
+ /* /header */
+/* "awesome" */
+
+.awesome {
+   display: flex;
+   padding: 5rem 11rem;
+   flex: 1;
+   background-color: var(--darkbackground);
+   gap: 3rem;
+}
+
+.awesome-left {
+   display: flex; 
+   flex-direction: column;
+   justify-content: space-evenly;
+}
+
+.placeholder {
+   max-width: 35vw;
+}
+
+.hero-main {
+   font-size: 48px;
+   color: var(--main-text);
+}
+
+.hero-secondary {
+   font-size: 18px;
+   color: var(--secondary-text)
+}
+
+.button-action {
+   width: 110px;
+   height: 30px;
+   border-radius: 8px;
+   background-color: var(--button);
+   color: var(--main-text);
+   box-shadow: 1px;
+
+}
+
+
+/* /"awesome" */
