@@ -11,10 +11,15 @@
 
  * {
     margin: 0;
-    border: solid 1px; black;
     font-family: sans-serif;
  }
 
+ body {
+   max-width: 1500px;
+   margin: auto;
+   z-index: -1;
+   /*background-color: black;*/
+ }
  /* header */
  nav {
    display: flex;
@@ -55,6 +60,7 @@
    flex: 1;
    background-color: var(--darkbackground);
    gap: 3rem;
+   height: 300px;
 }
 
 .awesome-left {
@@ -64,7 +70,7 @@
 }
 
 .placeholder {
-   width: 38vw;
+   width: 600px;
 }
 
 .hero-main {
@@ -94,25 +100,28 @@
 /* "info" */
 .info {
    background-color: var(--main-text);
-   padding: 2rem;
+   padding: 1em 1rem 8rem;
 }
 
 .random {
    text-align: center;
-   padding: 2rem;
+   padding: 2.5rem;
+   font-size: 36px;
+   font-weight: bolder
 }
 
 #wrapper {
    display: flex;
    flex: 1;
    justify-content: center;
-   gap: 5rem;
+   gap: 3rem;
  }
  .subwrapper {
    display: flex;
    flex-direction: column;
    align-items: center;
    justify-content: top;
+   text-align: center;
  }
 
  .square {
@@ -120,7 +129,7 @@
    height: 150px;
    background-color: var(--main-text);
    border-radius: 15px;
-   border: 5px solid #3882F6;
+   border: 3px solid #3882F6;
    align-items: center;
  }
 
@@ -128,6 +137,67 @@
    width: 150px;
  }
 
-
-
 /* /"info" */
+
+/* "quote" */
+.quote {
+   background-color: var(--quote-bg)
+}
+
+.quote-centering {
+   padding: 7rem 18rem;
+}
+
+.quote-text {
+   font-size: 36px;
+   color: var(--info-header);
+} 
+
+.quote-attribution {
+   font-weight: bold;
+   color: black;
+   text-align: right;
+   font-size: 18px;
+   padding: 1rem;
+}
+/* /"quote" */
+
+/* "call" */
+
+.blue-box {
+   background-color: var(--button);
+   display: flex;
+   justify-content: space-between;
+   margin: 8rem 10rem;
+   padding: 3rem 8rem;
+   border-radius: 12px;
+}
+
+.call-text {
+   color: var(--main-text);
+   font-size: 24px; 
+   font-weight: bold;
+}
+.call-text2 {
+   color: var(--secondary-text);
+   font-size: 18px; 
+}
+
+.white{
+   border: 2px solid white;
+}
+/* /"call" */
+
+/* "footer" */
+
+footer {
+   background-color: var(--darkbackground);
+}
+
+.footer {
+   color: var(--secondary-text);
+   text-align: center;
+   padding: 2.5rem 5rem;
+}
+
+/* /"footer" */
